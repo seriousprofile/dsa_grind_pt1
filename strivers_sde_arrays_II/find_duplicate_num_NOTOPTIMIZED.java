@@ -10,8 +10,6 @@ class Solution {
         for(int i = 1; i < nums.length; i++){
             if(nums[i - 1] == nums[i]){
                 repeatednum = nums[i];
-            } else {
-                i++;
             }
         }
 
