@@ -8,6 +8,8 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
+
+//IMPORTANT NOTE: YOU ARE ROTATING THE POINTERS. *NOT* THE VALUES. PLEASE DONT GET CONFUSED AGAIN 
 class Solution {
     public ListNode rotateRight(ListNode head, int k) {
         
